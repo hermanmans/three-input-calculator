@@ -1,0 +1,101 @@
+
+*{box-sizing: border-box;}
+ul li{padding: 3px;
+}
+a{color:black;}
+
+.linkdn{border-radius: 10px 10px 10px 10px;
+}
+.linkdn:hover{border-radius: 10px 10px 10px 10px;
+  transform: scale(1.3);
+}
+.fb{border-radius: 10px 10px 10px 10px;
+}
+.fb:hover{border-radius: 10px 10px 10px 10px;
+  transform: scale(1.3);
+}
+.gmail{border-radius: 10px 10px 10px 10px;
+}
+.gmail:hover{border-radius: 10px 10px 10px 10px;
+  transform: scale(1.3);
+}
+.education{
+  background-image: url("/Images/Background.jpg");
+  background-size: cover;
+  padding-left: 10px;
+}
+html{border:5px solid gray; 
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  padding: 15px;
+}
+.navbar{
+  background-image: url("/Images/Board.jpg");
+  background-size:cover;
+}
+header{font-size: 20px;
+  height: 30rem;
+  text-align: left;
+  background-image:url("/Images/CPT.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+}
+.jumbotron{
+  background-image: url("/Images/Board.jpg");
+}
+@keyframes profilepic {
+  0%{transform: translateX(-200px);}
+}
+.profilepic{
+  border-radius: 50%;
+  animation-name: profilepic;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+.skills{text-align: center;
+  margin:10px;
+}
+
+ main{
+  border:3px solid gray;
+  margin:10px;
+}
+
+.first_section{
+  background-image:url("/Images/Background.jpg");
+  background-size: cover;
+  margin: auto;
+}
+.education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align: center;
+  margin:19px;
+  width: 30%;
+  height: 200px;
+}
+.hobbies{
+  border:3px solid gray;
+  margin:10px;
+}
+
+.links{text-align: center;
+  margin:10px;
+  border:3px solid gray
+}
+
+.icons{
+  display: inline-block;
+}
+@media only screen and (max-width:1200px) {
+  .education{
+  display: inline-block;
+  border: 1px dotted black;
+  text-align:center;
+  width: 90%;
+  height: 200px;
+  }
+  #bottom{
+   width:90%;
+  }
+}
